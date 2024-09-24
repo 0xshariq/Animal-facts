@@ -1,0 +1,16 @@
+.container {
+    display : flex;
+    justify-content : space-evenly;
+    align-items: center;
+    margin: 1rem;
+}
+.container .type-1,.type-2,.type-3,.type-4,.type-5,.type-6,.type-7,.type-8{
+    display : flex;
+    flex-direction : column;
+    justify-content : space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    padding: 1rem;
+    width: 30vw;
+    max-height: 80vw;
+}
